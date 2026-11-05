@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <title> ТРКА: Формула 1 </title>
+    <link rel="stylesheet" href="dm3_shminka.css" />
+
+  </head>
+
+  <body>
+
+    <div class="card">
+      <h1><span class="car"> Симулација на Формула 1 трка! </h1>
+      <small> 10 возачи, 10 круга за да се одлучи победникот.... ;D </small
+      >
+      <div class="bar">
+        <button id="next"> Следен круг? </button><button id="auto" class="alt"> Цела трка </button
+        ><button id="reset" class="alt"> Почни поново </button><span class="lap" id="lapl"></span>
+      </div>
+      <div id="banner"></div>
+    </div>
+    <div class="card">
+      <h2> ВОЗАЧИ </h2>
+      <div class="wrap"><table id="base"></table></div>
+    </div>
+    <div class="card">
+      <h2> СТАТУС </h2>
+      <div class="wrap"><table id="race"></table></div>
+      <small id="sc"></small>
+    </div>
+    <div class="card">
+      <h2> ИСТОРИЈА НА ПОЗИЦИИ </h2>
+      <div class="wrap"><table class="hist" id="hist"></table></div>
+      <small> Легенда: P = пит стоп , S = спин , X = надвор од трка , SC = круг со safety car </small>
+    </div>
+    <script src="dm3_skripta.js"></script>
+
+  </body>
+
+</html>
